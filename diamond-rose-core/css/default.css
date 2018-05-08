@@ -1086,6 +1086,7 @@ span.freeshipping {
     }
     .hp-full-banner {
         background-image: none !important;
+        background-color: #8C8B89;
     }
     .hp-full-banner-text {
         width: 100%;
