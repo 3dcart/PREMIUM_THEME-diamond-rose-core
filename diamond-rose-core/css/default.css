@@ -39,7 +39,10 @@ h1 {
     text-transform: uppercase;
 }
 
-
+.flexslider .slides#hp-slides>li {
+  -webkit-backface-visibility: visible; /* Safari */
+  backface-visibility: visible;
+}
 
 @media (min-width: 1200px) {
     .container {
