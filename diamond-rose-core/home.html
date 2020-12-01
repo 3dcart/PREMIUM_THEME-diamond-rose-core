@@ -1,9 +1,9 @@
 <section id="home" class="home-page-content page-content">
 
     <!--START: home_carousel-->
-    <section class="homepage-slider">
+    <section class="homepage-slider" role="region" aria-label="Carousel">
         
-        <div class="homeCarousel flexslider" data-animation="[hc_effect]" data-slideshowspeed="[hc_delay]">
+        <div class="homeCarousel flexslider" data-animation="[hc_effect]" data-slideshowspeed="[hc_delay]" >
             <script>
                     //Slide JSON format
                     /*
@@ -35,10 +35,10 @@
                         <div class="col-md-6">
                             <div class="hp-slider-text-outer">
                                 <div class="hp-slider-text">
-                                    <h3></h3>
-                                    <p></p>
+                                    <h3>Main Heading</h3>
+                                    <p>Main Paragraph</p>
                                     <div class="hp-slider-cta">
-                                        <a href="" class="btn btn-primary"></a>
+                                        <a href="" class="btn btn-primary" aria-label="Carousel button"></a>
                                     </div>
                                 </div>
                             </div>
@@ -84,9 +84,9 @@
 
 	<!--START: FEATURE_MENU-->
     <section class="products-section">
-        <div class="container">
+        <div class="container" aria-label="featuredproducts" role="main">
             
-            <h2 class="header-specials"><span>[category_Header-specials]</span></h2>
+            <h1 class="header-specials"><span>[category_Header-specials]</span></h1>
 
             <!--START: CATEGORY_ITEMS-->
             <div class="product-items product-items-[product-cols-number]">
@@ -112,13 +112,13 @@
             </div>
         </div>
 
-        <div class="hp-brands-slider">
+        <div class="hp-brands">
             <div class="container">
                 <div class="row">
                     <div class="col-md-4 revealOnScroll" data-animation="fadeInLeft" data-timeout="500">
                         <div class="bottom-banner-item">
                             <a href="#">
-                                <img src="/assets/templates/diamond-rose-core-premium/images/content/bottom-banner-1.jpg" alt="" class="img-responsive">
+                                <img src="/assets/templates/diamond-rose-core-premium/images/content/bottom-banner-1.jpg" alt="bottom banner" class="img-responsive">
                                 <h3>Lorem ipsum dolor</h3>
                             </a>
                         </div>
@@ -126,7 +126,7 @@
                     <div class="col-md-4 revealOnScroll" data-animation="fadeInUp" data-timeout="500">
                         <div class="bottom-banner-item">
                             <a href="#">
-                                <img src="/assets/templates/diamond-rose-core-premium/images/content/bottom-banner-2.jpg" alt="" class="img-responsive">
+                                <img src="/assets/templates/diamond-rose-core-premium/images/content/bottom-banner-2.jpg" alt="middle banner" class="img-responsive">
                                 <h3>Fusce feugiat erat dapibus</h3>
                             </a>
                         </div>
@@ -134,7 +134,7 @@
                     <div class="col-md-4">
                         <div class="bottom-banner-item revealOnScroll" data-animation="fadeInRight" data-timeout="500">
                             <a href="#">
-                                <img src="/assets/templates/diamond-rose-core-premium/images/content/bottom-banner-3.jpg" alt="" class="img-responsive">
+                                <img src="/assets/templates/diamond-rose-core-premium/images/content/bottom-banner-3.jpg" alt="right banner" class="img-responsive">
                                 <h3>Curabitur et egestas leo</h3>
                             </a>
                         </div>
@@ -147,7 +147,7 @@
 			<div class="container">
 				<h3>Follow Us on Instagram @diamondrose</h3>
 				<script src="https://snapwidget.com/js/snapwidget.js"></script>
-				<iframe src="https://snapwidget.com/embed/499565" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:100%; "></iframe>
+				<iframe src="https://snapwidget.com/embed/499565" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:100%; " aria-label="Instagram Feeds"></iframe>
 			</div>
         </div>
 

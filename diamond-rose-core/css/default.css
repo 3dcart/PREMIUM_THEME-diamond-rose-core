@@ -1,7 +1,9 @@
 /*
 ** Bootstrap over-rides
 */
-
+html{
+	font-size:12px;
+}
 html, body {
   height: 100%;
 }
@@ -26,7 +28,22 @@ body {
 h1 {
 	font-size: 30px;
 }
-
+#skip a
+{
+position:absolute;
+left:-10000px;
+top:auto;
+width:1px;
+height:1px;
+overflow:hidden;
+}
+ 
+#skip a:focus
+{
+position:static;
+width:auto;
+height:auto;
+}
 .titles {
     margin: 0 0 20px;
     font-size: 18px;
@@ -173,11 +190,11 @@ section.navbar-wrapper.affix {
 }
 .product-item .on-sale-badge {
     background-color: #000;
-    height: 48px;
-    line-height: 48px;
+    height: 55px;
+    line-height: 55px;
     border-radius: 100%;
-    width: 48px;
-    font-size: 10px;
+    width: 55px;
+    font-size: 12px;
 }
 @media (max-width: 1023px) {
   .navbar-header {
@@ -412,7 +429,9 @@ ul.extrapages li a {
     .copyright > p {
         margin: 0;
     }
-
+.copyright a {
+	color:#959595;
+}
 .mailist-box {
     width: 350px;
     float: right;
@@ -825,7 +844,7 @@ span.freeshipping {
     font-size: 13px;
     background-color: transparent !important;
     display: block;
-    color: #555;
+    color: #000;
     text-decoration: none !important;
 }
 .mobile-menu-widget ul li a:hover {
@@ -919,7 +938,7 @@ span.freeshipping {
 .home-page-content .products-section .product-items .product-item {
     margin-bottom: 35px;
 }
-.home-page-content .products-section h2 {
+.home-page-content .products-section h2,.home-page-content .products-section h1 {
     font-size: 24px;
     text-transform: uppercase;
     font-weight: 600;
@@ -929,10 +948,10 @@ span.freeshipping {
     margin: 0 0 45px;
     padding: 0 20px;
 }
-.home-page-content .products-section h2 span {
+.home-page-content .products-section h2 span,.home-page-content .products-section h1 span {
     background-color: #fff;
 }
-.home-page-content .products-section h2:before {
+.home-page-content .products-section h2:before,.home-page-content .products-section h1:before {
     content: "";
     background-color: #000;
     height: 1px;
@@ -1058,10 +1077,10 @@ span.freeshipping {
 .hp-full-banner-cta a:hover {
     opacity: 0.5;
 }
-.hp-brands-slider {
+.hp-brands {
     padding: 60px 0;
 }
-.hp-brands-slider h2 {
+.hp-brands h2 {
     font-size: 24px;
     margin: 0 0 40px;
     text-transform: uppercase;
